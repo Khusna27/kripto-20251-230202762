@@ -15,7 +15,7 @@ Kelas: 5IKRB
 ---
 
 ## 2. Dasar Teori
-### Sejarah Kriptografi
+Sejarah Kriptografi
     Kriptografi merupakan ilmu dan seni untuk menjaga keamanan pesan melalui pengkodean yang bertujuan untuk mengubah pesan agar hanya bisa dipahami oleh pihak tertentu. Kriptografi telah melalui perkembangan sebagai berikut : 
  A. Era kriptografi klasik.
 Kriptografi klasik merupakan kriptografi yang sudah ada sejak ribuan tahun yang lalu sebelum ditemukannya komputer digital. Kriptografi yang ada pada era klasik diantaranya : 
