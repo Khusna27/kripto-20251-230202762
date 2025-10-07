@@ -17,7 +17,7 @@ Kelas: 5IKRB
 ## 2. Dasar Teori
 ### Sejarah Kriptografi
     Kriptografi merupakan ilmu dan seni untuk menjaga keamanan pesan melalui pengkodean yang bertujuan untuk mengubah pesan agar hanya bisa dipahami oleh pihak tertentu. Kriptografi telah melalui perkembangan sebagai berikut : 
-#### A. Era kriptografi klasik.
+ A. Era kriptografi klasik.
 Kriptografi klasik merupakan kriptografi yang sudah ada sejak ribuan tahun yang lalu sebelum ditemukannya komputer digital. Kriptografi yang ada pada era klasik diantaranya : 
 
  - Caesar Chiper
@@ -39,7 +39,7 @@ Contoh penggunaanya :
 Plainteks : Zahran 
 Chipertext : A Z S I Z M
 
-#### B. Kriptografi Modern 
+B. Kriptografi Modern 
         Kriptografi modern adalah era setelah ditemukannya komputer yang membuat ilmu kriptografi berkembang dengan pesat. Meskipun begitu algoritmanya tetap menggunakan teknik dasar kriptografi klasik yaitu teknik substitusi dan transposisi namun lebih kompleks. Contoh kriptografi modern sebagai berikut : 
         
 - Kriptografi AES (Advanced Encryption Standard)
@@ -51,7 +51,7 @@ Chipertext : A Z S I Z M
 - Enigma Machine
     Merupakan kriptografi yang digunakan oleh jerman selama perang dunia II. Penggunaanya mirip kriptografi vigenere namun jauh lebih kompleks karena memiliki jumlah kunci yang sangat besar.
 
-#### C. Kriptografi Kontemporer
+C. Kriptografi Kontemporer
 		Kriptografi kontemporer hampir mirip dengan kriptografi modern karena bekembang sejak era munculnya kpomputer namun berfokus pada teknik yang mengandalkan matematika dan algoritma yang kompleks untuk mengamankan data digital. Ciri khas kriptografi kontemporer yaitu berbasis bit, memiliki kompleksitas matematika yang tinggi dan kunci yang sangat panjang. Contohnya yaitu : 
         
 - Blockchain 
