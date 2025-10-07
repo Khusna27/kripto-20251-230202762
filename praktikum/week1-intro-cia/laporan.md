@@ -60,7 +60,7 @@ C. Kriptografi Kontemporer
 - Cryptocurrency
     Merupakan media pertukaran alternatif yang digunakan dengan pertimbangan keamanan, transparansi dan efektivitas biaya. Teknik  kriptografi  dengan  protokol  enkripsi  identifikasi  dan  verifikasi  transaksi memberikan suatu detail transaksi cryptocurrency  yang transparan dan identitas pengguna tetap anonim. Penetapan harga  pada  transaksi  ini  didasarkan  pada  penawaran  dan  permintaan. Selain itu transaksi crypto dapat menurunkan biaya transaksi, serta menekan biaya pengiriman uang. Cryptocurrency  menjadi  mata  uang  digital  yang  tidak  dikeluarkan  oleh  otoritas  pusat  mana  pun,  sehingga  tidak  terpengaruh  dengan  kebijakan  moneter.
 
-### Prinsip CIA
+Prinsip CIA
     Prinsip CIA (Confidentiality Integrity Availability) merupakan model keamanan yang sederhana dan dapat diterapkan secara luas. Prinsip ini digunakan pada bidang analisis keamanan, mulai dari akses ke riwayat internet pengguna hingga keamanan data yang terenkripsi.
 Tiga pilar keamanan informasi ; 
 
