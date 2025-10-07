@@ -1,6 +1,6 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 1
-Topik: [judul praktikum]  
+Topik: Sejarah kriptografi dan prinsip CIA 
 Nama: Khusnatun Lina Fitri  
 NIM: 230202762  
 Kelas: 5IKRB  
@@ -8,8 +8,12 @@ Kelas: 5IKRB
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
+Tujuan Pembelajaran
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:  
+1. Menjelaskan **sejarah dan evolusi kriptografi** dari masa klasik hingga modern.  
+2. Menyebutkan **prinsip Confidentiality, Integrity, Availability (CIA)** dengan benar.  
+3. Menyimpulkan **peran kriptografi** dalam sistem keamanan informasi modern.  
+4. Menyiapkan repositori GitHub sebagai media kerja praktikum.
 ---
 
 ## 2. Dasar Teori
