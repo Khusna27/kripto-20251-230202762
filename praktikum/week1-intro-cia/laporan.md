@@ -17,7 +17,7 @@ Kelas: 5IKRB
 ## 2. Dasar Teori
 Sejarah Kriptografi
     Kriptografi merupakan ilmu dan seni untuk menjaga keamanan pesan melalui pengkodean yang bertujuan untuk mengubah pesan agar hanya bisa dipahami oleh pihak tertentu. Kriptografi telah melalui perkembangan sebagai berikut : 
- A. Era kriptografi klasik.
+A. Era kriptografi klasik.
 Kriptografi klasik merupakan kriptografi yang sudah ada sejak ribuan tahun yang lalu sebelum ditemukannya komputer digital. Kriptografi yang ada pada era klasik diantaranya : 
 
  - Caesar Chiper
@@ -100,13 +100,13 @@ Belum ada
 
 ## 6. Quiz
 1. Siapa tokoh yang dianggap sebagai bapak kriptografi modern?
-   Jawaban : Claude Shannon merupakan orang pertama yang meletakkan dasar ilmiah dan matematis bagi kriptografi modern melalui karya monumentalnya yang berjudul 'Communication Theory of Secrecy Systems' (1949). Selain itu ada juga tokoh penting lain yang sering disebut sebagai pelopor kriptografi modern praktis adalah Whitfield Diffie dan Martin Hellman, yang memperkenalkan kriptografi kunci publik (public-key cryptography) pada tahun 1976.
+Jawaban : Claude Shannon merupakan orang pertama yang meletakkan dasar ilmiah dan matematis bagi kriptografi modern melalui karya monumentalnya yang berjudul 'Communication Theory of Secrecy Systems' (1949). Selain itu ada juga tokoh penting lain yang sering disebut sebagai pelopor kriptografi modern praktis adalah Whitfield Diffie dan Martin Hellman, yang memperkenalkan kriptografi kunci publik (public-key cryptography) pada tahun 1976.
    
 2. Sebutkan algoritma kunci public yang populer digunakan saat ini.
-   Jawaban : RSA (Rivest shamir adleman), ECC (Elliptic curve cryptography dan Diffie hellman.
+Jawaban : RSA (Rivest shamir adleman), ECC (Elliptic curve cryptography dan Diffie hellman.
 
 3. Apa perbedaan utama kriptografi klasik dan kriptografi modern?
-   Jawaban : Kriptografi klasik masih menggunakan teknik substitusi dan transposisi pada huruf serta biasanya menggunakan kunci simetris. Sedangkan kriptografi modern sudah menggunakan matematika dan komputer namun masih menggunakan metode substitusi dan transposisi namun lebih kompleks.
+Jawaban : Kriptografi klasik masih menggunakan teknik substitusi dan transposisi pada huruf serta biasanya menggunakan kunci simetris. Sedangkan kriptografi modern sudah menggunakan matematika dan komputer namun masih menggunakan metode substitusi dan transposisi namun lebih kompleks.
 
 ---
 
