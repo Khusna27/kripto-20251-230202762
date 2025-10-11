@@ -41,7 +41,7 @@ Plainteks : Zahran
 Chipertext : A Z S I Z M
 
 ### B. Kriptografi Modern 
-        Kriptografi modern adalah era setelah ditemukannya komputer yang membuat ilmu kriptografi berkembang dengan pesat. Meskipun begitu algoritmanya tetap menggunakan teknik dasar kriptografi klasik yaitu teknik substitusi dan transposisi namun lebih kompleks. Contoh kriptografi modern sebagai berikut : 
+Kriptografi modern adalah era setelah ditemukannya komputer yang membuat ilmu kriptografi berkembang dengan pesat. Meskipun begitu algoritmanya tetap menggunakan teknik dasar kriptografi klasik yaitu teknik substitusi dan transposisi namun lebih kompleks. Contoh kriptografi modern sebagai berikut : 
         
 - Kriptografi AES (Advanced Encryption Standard)
     Merupakan kriptografi yang diperkirakan menjadi standar utama dalam mengenkripsi semua bentuk data elektronik seperti perbankan dan transaksi finansial. Kelebihannya yaitu relatif cepat digunakan dalam software maupun hardware dan mudah untuk diimplementasikan dan hanya menggunakan memori yang kecil.
@@ -53,7 +53,7 @@ Chipertext : A Z S I Z M
     Merupakan kriptografi yang digunakan oleh jerman selama perang dunia II. Penggunaanya mirip kriptografi vigenere namun jauh lebih kompleks karena memiliki jumlah kunci yang sangat besar.
 
 ### C. Kriptografi Kontemporer
-		Kriptografi kontemporer hampir mirip dengan kriptografi modern karena bekembang sejak era munculnya kpomputer namun berfokus pada teknik yang mengandalkan matematika dan algoritma yang kompleks untuk mengamankan data digital. Ciri khas kriptografi kontemporer yaitu berbasis bit, memiliki kompleksitas matematika yang tinggi dan kunci yang sangat panjang. Contohnya yaitu : 
+Kriptografi kontemporer hampir mirip dengan kriptografi modern karena bekembang sejak era munculnya kpomputer namun berfokus pada teknik yang mengandalkan matematika dan algoritma yang kompleks untuk mengamankan data digital. Ciri khas kriptografi kontemporer yaitu berbasis bit, memiliki kompleksitas matematika yang tinggi dan kunci yang sangat panjang. Contohnya yaitu : 
         
 - Blockchain 
 	Merupakan sebuah buku besar digital yang tidak dapat diubah (immutable ledger) yang mencatat semua transaksi. Konsep inti dari blockchain adalah desentralisasi dimana tidak ada satu entitas pun yang mengendalikan seluruh sistem sehingga sangat tahan terhadap serangan dan manipulasi.
@@ -100,8 +100,8 @@ Belum ada
 ---
 
 ## 6. Hasil dan Pembahasan
-![Setup GitHub](Screenshots/screenshot.jpeg)  
-![Commit GitHub](Screenshots/github.png)  
+![Setup GitHub](screenshot/screenshot.jpeg)  
+![Commit GitHub](screenshot/github.png)  
 
 ## 7. Quiz
 1. Siapa tokoh yang dianggap sebagai bapak kriptografi modern?
