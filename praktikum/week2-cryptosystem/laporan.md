@@ -1,21 +1,23 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 2 
+Topik: Cryptosystem (Komponen, Enkripsi & Dekripsi, Simetris & Asimetris)  
+Nama: Khusnatun Lina Fitri  
+NIM: 230202762 
+Kelas: 5IKRB  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Mengidentifikasi komponen dasar kriptosistem (plaintext, ciphertext, kunci, algoritma).  
+2. Menggambarkan proses enkripsi dan dekripsi sederhana.  
+3. Mengklasifikasikan jenis kriptosistem (simetris dan asimetris).  
+
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
-
+### Membuat skema kriptosistem
+![Diagram Kriptosistem](screenshots/diagram_kriptosistem.png)
 ---
 
 ## 3. Alat dan Bahan
