@@ -64,49 +64,108 @@ Decrypted : <230202762><Khusnatun Lina Fitri>
 ---
 ### Klasifikasi Simetris & Asimetris
 
+####  1. Kriptografi Simetris
+Kriptografi simetris menggunakan satu kunci yang sama untuk proses enkripsi dan dekripsi.  
+Prosesnya lebih cepat karena operasi matematikanya sederhana, namun keamanannya bergantung sepenuhnya pada satu kunci tunggal namun jika kunci tersebut bocor, maka seluruh sistem bisa terbuka.  
+Algoritma jenis ini cocok digunakan untuk enkripsi data dalam jumlah besar karena mudah diterapkan dan efisien.
 
+**Contoh Algoritma:**
+
+- **a. AES (Advanced Encryption Standard)**  
+  Sistem penyandian blok dengan panjang 128 bit, digunakan secara luas karena efisien dan aman.  
+  **Contoh penggunaan:** keamanan internet melalui TLS/SSL/HTTPS serta jaringan nirkabel (WPA2/WPA3).
+
+- **b. DES (Data Encryption Standard)**  
+  Sistem penyandian blok 64 bit, dengan 56 bit sebagai kunci dan 8 bit untuk paritas.  
+  Saat ini dianggap kurang aman karena panjang kuncinya terlalu pendek.  
+  **Contoh penggunaan:** sistem pembayaran dan ATM untuk enkripsi PIN, serta keamanan jaringan pribadi (VPN).
+
+---
+
+#### 2. Kriptografi Asimetris
+Kriptografi asimetris menggunakan dua kunci berbeda, yaitu kunci publik untuk enkripsi dan kunci privat untuk dekripsi.  
+Prosesnya lebih lambat karena perhitungan matematikanya lebih kompleks, namun lebih aman karena pesan hanya bisa didekripsi oleh pemilik kunci privat, meskipun kunci publik diketahui umum.
+
+**Contoh Algoritma:**
+
+- **a. RSA (Rivest–Shamir–Adleman)**  
+  Menggunakan dua kunci, publik untuk enkripsi dan privat untuk dekripsi.  
+  **Contoh penggunaan:** tanda tangan digital dan distribusi kunci.
+
+- **b. ECC (Elliptic Curve Cryptography)**  
+  Menggunakan kunci dengan panjang 256 bit berbasis operasi titik kurva elips yang sulit dibalik dan sangat aman.  
+  **Contoh penggunaan:** mata uang kripto (blockchain) dan otoritas sertifikat digital.
+
+---
+
+
+---
 ## 3. Alat dan Bahan
-(- Python 3.x  
-- Visual Studio Code / editor lain  
+
+- Python 3.x  
+- Visual Studio Code 
 - Git dan akun GitHub  
-- Library tambahan (misalnya pycryptodome, jika diperlukan)  )
+- Google chrome
+- Google schollar.
 
 ---
 
 ## 4. Langkah Percobaan
-(Tuliskan langkah yang dilakukan sesuai instruksi.  
-Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
+1. Membuat file `simple_crypto.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+3. Menjalankan program dengan perintah `python simple_crypto.py`.)
+4. Membuat ringkasan perbedaan antara kriptosistem simetris dan asimetris.
+5. Mengaploud hasil eksekusi di folder `praktikum/week2-cryptosistem/screenshots/`
+6. Menjawab pertanyaan diskusi.
 
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
-
-```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
 ```
-)
+file: praktikum/week2-cryptosystem/src/simple_crypto.py
 
+def encrypt(plaintext, key):
+    result = ""
+    for char in plaintext:
+        if char.isalpha():
+            shift = 65 if char.isupper() else 97
+            result += chr((ord(char) - shift + key) % 26 + shift)
+        else:
+            result += char
+    return result
+
+def decrypt(ciphertext, key):
+    result = ""
+    for char in ciphertext:
+        if char.isalpha():
+            shift = 65 if char.isupper() else 97
+            result += chr((ord(char) - shift - key) % 26 + shift)
+        else:
+            result += char
+    return result
+
+if __name__ == "__main__":
+    message = "<230202762><Khusnatun Lina Fitri>"
+    key = 5
+
+    enc = encrypt(message, key)
+    dec = decrypt(enc, key)
+
+    print("Plaintext :", message)
+    print("Ciphertext:", enc)
+    print("Decrypted :", dec)
+```
 ---
-
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+
+Diagram Kriptosistem : 
+
+![Hasil Eksekusi](screenshots/diagram_kriptosistem.png)
 
 Hasil eksekusi program Caesar Cipher:
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
+![Hasil Input](screenshots/hasil_eksekusi.png)
+
 
 ---
 
