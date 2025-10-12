@@ -113,7 +113,7 @@ Prosesnya lebih lambat karena perhitungan matematikanya lebih kompleks, namun le
 ## 4. Langkah Percobaan
 1. Membuat file `simple_crypto.py` di folder `praktikum/week2-cryptosystem/src/`.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python simple_crypto.py`.)
+3. Menjalankan program dengan perintah `python simple_crypto.py`.
 4. Membuat ringkasan perbedaan antara kriptosistem simetris dan asimetris.
 5. Mengaploud hasil eksekusi di folder `praktikum/week2-cryptosistem/screenshots/`
 6. Menjawab pertanyaan diskusi.
@@ -166,36 +166,68 @@ Hasil eksekusi program Caesar Cipher:
 
 ![Hasil Input](screenshots/hasil_eksekusi.png)
 
-
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+1. Sebutkan komponen utama dalam sebuah kriptosistem.  
+2. Apa kelebihan dan kelemahan sistem simetris dibandingkan asimetris?  
+3. Mengapa distribusi kunci menjadi masalah utama dalam kriptografi simetris?
+
+**Jawaban :**
+1. Komponen Utama dalam Sebuah Kriptosistem
+- Plaintext (Teks Asli), Pesan atau data asli yang ingin dikirim.  
+- Ciphertext (Teks Terenkripsi), Hasil dari proses enkripsi yang tidak dapat dibaca tanpa kunci dekripsi.  
+- Key (Kunci), Informasi rahasia yang digunakan dalam proses enkripsi dan dekripsi.  
+- Algoritma Enkripsi/Dekripsi, Metode atau aturan yang digunakan untuk menyandikan dan membuka pesan.
+
+---
+
+2. Kelebihan dan Kelemahan Sistem Simetris dan Asimetris
+
+### **Sistem Kriptografi Simetris**
+**Kelebihan:**
+- Prosesnya lebih cepat karena algoritmanya sederhana.  
+- Efisien dalam penggunaan sumber daya.  
+- Mudah diimplementasikan.  
+
+**Kelemahan:**
+- Risiko kebocoran data tinggi.  
+- Distribusi kunci sulit dan tidak aman.  
+- Kurang cocok untuk sistem berskala besar.  
+
+###  **Sistem Kriptografi Asimetris**
+**Kelebihan:**
+- Distribusi kunci lebih aman karena menggunakan dua kunci berbeda (publik dan privat).  
+- Cocok untuk sistem komunikasi terbuka seperti internet.  
+- Mendukung tanda tangan digital.  
+
+**Kelemahan:**
+- Prosesnya lebih lambat karena operasi matematikanya kompleks.  
+- Membutuhkan daya komputasi besar.  
+- Implementasinya lebih kompleks.  
+
+---
+
+3.Karena kriptografi simetris hanya menggunakan kunci tunggal untuk enkripsi dan dekripsi sehingga dalam proses distribusi sangat berisiko terhadapp penyadapan atau pencurian. 
+
 ---
 
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+
+Penggunaan kriptografi sangat penting untuk menjaga kerahasiaan data melalui proses enkripsi dan dekripsi. Selain itu kriptografi dibagi menjadi 2 yaitu simetris dan asimetris, dimana kriptografi simetris menggunakan satu kunci untuk enkripsi dan dekripsi sedangkan kriptografi asimetris menggunakan dua kunci yang berbeda.
 
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
 
+- UNES Journal of Information System COMPARISON OF SYMMETRIC AND ASYMMETRIC CRYPTOGRAPHIC. (2023). 8(1), 42–47.
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit week2-cryptosystem
+Author: Khusnatun Lina Fitri <husnatunlinafitri@gmail.com>
+Date:   2025-10-11
 
     week2-cryptosystem: implementasi Caesar Cipher dan laporan )
 ```
