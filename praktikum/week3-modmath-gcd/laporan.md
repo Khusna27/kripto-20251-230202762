@@ -1,15 +1,15 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
-
+Minggu ke-: 3  
+Topik:Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit) 
+Nama: Khusnatun Lina Fitri  
+NIM: 230202762  
+Kelas: 5IKRB
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
-
+1. Menyelesaikan operasi aritmetika modular.  
+2. Menentukan bilangan prima dan menghitung GCD (Greatest Common Divisor).  
+3. Menerapkan logaritma diskrit sederhana dalam simulasi kriptografi.  
 ---
 
 ## 2. Dasar Teori
