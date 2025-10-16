@@ -13,8 +13,36 @@ Kelas: 5IKRB
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+a. Langkah 1-Aritmetika Modular
+```
+def mod_add(a, b, n): return (a + b) % n
+def mod_sub(a, b, n): return (a - b) % n
+def mod_mul(a, b, n): return (a * b) % n
+def mod_exp(base, exp, n): return pow(base, exp, n)  # eksponensiasi modular
+
+print("7 + 5 mod 12 =", mod_add(7, 5, 12))
+print("7 * 5 mod 12 =", mod_mul(7, 5, 12))
+print("7^128 mod 13 =", mod_exp(7, 128, 13))
+
+Hasilnya
+```
+7 + 5 mod 12 = 0
+7 * 5 mod 12 = 11
+7^128 mod 13 = 3
+```
+b. Langkah 2-GCD dan Algoritma Euclidean
+```
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+print("gcd(54, 24) =", gcd(54, 24))
+```
+Hasilnya
+```
+gcd(54, 24) = 6
+```
 
 ---
 
