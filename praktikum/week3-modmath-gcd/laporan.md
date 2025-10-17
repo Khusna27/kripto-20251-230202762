@@ -145,17 +145,21 @@ print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
 ---
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+Hasil eksekusi Langkah 1-Aritmetika Modular
 
-Hasil eksekusi program Caesar Cipher:
-
-![Hasil Eksekusi](screenshots/output.png)
+![Hasil Eksekusi](screenshots/hasil langkah1.png)
 ![Hasil Input](screenshots/input.png)
 ![Hasil Output](screenshots/output.png)
-)
+a. Langkah 1-Aritmetika Modular
+
+b. Langkah 2-GCD dan Algoritma Euclidean
+
+Langkah 3 — Extended Euclidean Algorithm
+
+Langkah 4 — Logaritma Diskrit (Discrete Log)
+
+---
+
 
 ---
 
