@@ -148,15 +148,14 @@ print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
 Hasil eksekusi Langkah 1-Aritmetika Modular
 
 ![Hasil Eksekusi](screenshots/hasil langkah1.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-a. Langkah 1-Aritmetika Modular
 
-b. Langkah 2-GCD dan Algoritma Euclidean
+Hasil eksekusi Langkah 2-GCD dan Algoritma Euclidean
+![Hasil Eksekusi](screenshots/hasil langkah 2.png)
 
-Langkah 3 — Extended Euclidean Algorithm
-
-Langkah 4 — Logaritma Diskrit (Discrete Log)
+Hasil eksekusi Langkah 3 — Extended Euclidean Algorithm
+![Hasil Eksekusi](screenshots/hasil langkah 3.png)
+Hasil eksekusi Langkah 4 — Logaritma Diskrit (Discrete Log)
+![Hasil Eksekusi](screenshots/hasil langkah 4.png)
 
 ---
 
