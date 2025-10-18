@@ -147,15 +147,22 @@ print("3^x ≡ 4 (mod 7), x =", discrete_log(3, 4, 7))  # hasil: 4
 ## 6. Hasil dan Pembahasan
 Hasil eksekusi Langkah 1-Aritmetika Modular
 
-![Hasil Eksekusi](screenshots/hasil langkah1.png)
+![Hasil Eksekusi](screenshots/hasil%20langkah1.png)
 
 Hasil eksekusi Langkah 2-GCD dan Algoritma Euclidean
-![Hasil Eksekusi](screenshots/hasil langkah 2.png)
+
+![Hasil Eksekusi](screenshots/hasil%20langkah%202.png)
 
 Hasil eksekusi Langkah 3 — Extended Euclidean Algorithm
-![Hasil Eksekusi](screenshots/hasil langkah 3.png)
+
+![Hasil Eksekusi](screenshots/hasil%20langkah%203.png)
+
 Hasil eksekusi Langkah 4 — Logaritma Diskrit (Discrete Log)
-![Hasil Eksekusi](screenshots/hasil langkah 4.png)
+
+![Hasil Eksekusi](screenshots/hasil%20langkah%204.png)
+
+Pembahasan : 
+Semua percobaan berhasil tanpa eror, dan hasil keluaran sesuia dengan teori dasar kriptografi.
 
 ---
 
@@ -163,10 +170,15 @@ Hasil eksekusi Langkah 4 — Logaritma Diskrit (Discrete Log)
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
+Jawab pertanyaan diskusi yang diberikan pada modul.  
+
+### Pertanyaan 1 : Apa peran aritmetika modular dalam kriptografi modern?
+Aritmetika modular memiliki peran yang sangat penting dalam kriptografi modern karena menjadi dasar utama berbagai sistem keamanan digital seperti RSA dan Diffie-Hellman. Fungsinya adalah menjaga setiap hasil operasi matematika tetap berada dalam batas tertentu (antara 0 sampai n-1), sehingga pproses enkripsi dan dekripsi dapat dilakukan secara efisien. 
+Selain itu,operasi seperti perpangkatan modular juga mudah dikerjakan, tetappi sulit untuk dibalik, yang menjadikan kunci utama dalam keamanan data.
+### Pertanyaan 2 : Mengapa invers modular penting dalam algoritma kunci publik (misalnya RSA)?
+### Pertanyaan 3 : Apa tantangan utama dalam menyelesaikan logaritma diskrit untuk modulus besar?
+
+
 ---
 
 ## 8. Kesimpulan
@@ -175,20 +187,14 @@ Hasil eksekusi Langkah 4 — Logaritma Diskrit (Discrete Log)
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
 
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit week3-moodmath-gcd
+Author: Khusnatun Lina Fitri <husnatunlinafitri@gmail.com>
+Date:   2025-01-16
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week3-moodmath-gcd: implementasi Modular Math (Aritmetika Modular, GCD, Bilangan Prima, Logaritma Diskrit)  dan laporan.
 ```
