@@ -246,6 +246,10 @@ Hasil eksekusi Langkah 4 — Logaritma Diskrit (Discrete Log)
 
 ![Hasil Eksekusi](screenshots/hasil%20langkah%204.png)
 
+Hasil program ketika digabungkan : 
+
+![Hasil Eksekusi](screenshots/hasil.png)
+
 Pembahasan : 
 Semua percobaan berhasil tanpa eror, dan hasil keluaran sesuia dengan teori dasar kriptografi.
 
