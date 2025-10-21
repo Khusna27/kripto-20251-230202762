@@ -134,12 +134,11 @@ Invers 3 mod 11 = 4
 ---
 
 ## 4. Langkah Percobaan
-1. Membuat file dengan nama aritmatika_modular.py di folder `praktikum/week3-modmath/src/`.
-2. Membuat file dengan nama gcd-dan-algoritma-euclidean.py di folder `praktikum/week3-modmath/src/`.
-3. Membuat file dengan nama extended-euclidean-algorithm.py di folder `praktikum/week3-modmath/src/`.
-4. Membuat file dengan nama logaritma-diskrit.py di folder `praktikum/week3-modmath/src/`.
-5. Menyalin kode program dari panduan praktikum.
-6. Menjalankan program dengan perintah sesuai nama file.
+1. Membuat file dengan nama modular_math.py di folder `praktikum/week3-modmath/src/`.
+2. Menyalin kode program dari panduan praktikum.
+3. Menjalankan program dengan perintah sesuai nama file.
+4. Mengaploud hasil screenshot program (hasil.png) di folder `praktikumweek3-modmath/screenshots/`
+5. Mengerjakan soal diskusi
 ---
 
 ## 5. Source Code
