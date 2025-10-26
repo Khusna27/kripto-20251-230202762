@@ -17,8 +17,9 @@ Kelas: 5IKRB
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+
+Entropy dalam kriptografi adalah ukuran ketidakpastian dalam ruang kunci, dimana semakin besar entropy maka semakin sulit untuk menebak kunci yang benar karena banyak kemungkinan kunci yang harus dicoba.
+Sedangkan Unicity distance adalah panjang chipertext minimum yang diperlukan agar penyerang bisa menentukan satu-satunya kunci yang benar dengan pasti.
 
 ---
 
@@ -66,26 +67,37 @@ print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
 ---
 
 ## 6. Hasil dan Pembahasan
-(- Lampirkan screenshot hasil eksekusi program (taruh di folder `screenshots/`).  
-- Berikan tabel atau ringkasan hasil uji jika diperlukan.  
-- Jelaskan apakah hasil sesuai ekspektasi.  
-- Bahas error (jika ada) dan solusinya. 
+```
+Entropy ruang kunci 26 = 4.700439718141092 bit
+Entropy ruang kunci 2^128 = 128.0 bit
+Unicity Distance untuk Caesar Cipher = 1.3333333333333333
+Waktu brute force Caesar Cipher (26 kunci) = 3.0092592592592593e-10 hari
+Waktu brute force AES-128 = 3.938453320844195e+27 hari
+```
+Pembahasan : 
 
-Hasil eksekusi program Caesar Cipher:
+1. Entropy ruang kunci 26 = 4.700439718141092 bit (Entropy nya sangat rendah karena hanya ada 26 kemungkinan pergeseran dan keamanan kunci hanya setara dengan kurang dari 5 bit data biner)
+   
+2. Entropy ruang kunci 2^128 = 128.0 bit ( Penggunaan entropy sangat tinggi karena ada 128.0 kemungkinan kunci unik)
+   
+3. Unicity Distance untuk Caesar Cipher = 1.3333333333333333 ( Panjang chipertext hanya sepanjang 1 sampai 2 huruf sehingga sangat mudah untuk memecahkan kode dengan menganalisis frekuensinya).
 
-![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
-)
+4. Waktu brute force Caesar Cipher (26 kunci) = 3.0092592592592593e-10 hari (Pemecahan kunci dapat dilakukan dengan mencoba semua 26 kunci secara instan dalam waktu hitungan detik).
 
+5. Waktu brute force AES-128 = 3.938453320844195e+27 hari ( Jumlah waktu yang digunakan sangat lama sehingga tidak memungkinkan untuk memecahkan kode dengan brute force).
+```
+Hasil eksekusi program entropy_unicity :
+
+![Hasil Eksekusi](screenshots/hasil.png)
 ---
 
 ## 7. Jawaban Pertanyaan
-(Jawab pertanyaan diskusi yang diberikan pada modul.  
-- Pertanyaan 1: …  
-- Pertanyaan 2: …  
-)
----
+
+1. Apa arti dari nilai entropy dalam konteks kekuatan kunci?
+Nilai entropy dalam konteks kekuatan kunci adalah untuk mengukur tingkat ketidakpastian atau kekacauan dalam kunci/ data. Jadi semakin tinggi nilai entropy maka semakin acak dan sulit untuk memprediksi kode kunci.
+2. Mengapa unicity distance penting dalam menentukan keamanan suatu cipher?
+
+3. Mengapa brute force masih menjadi ancaman meskipun algoritma sudah kuat?
 
 ## 8. Kesimpulan
 (Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
