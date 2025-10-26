@@ -28,7 +28,7 @@ Sedangkan Unicity distance adalah panjang chipertext minimum yang diperlukan aga
 - Visual Studio Code 
 - Git dan akun GitHub
 - Google chrome
-
+- Google Schollar
 ---
 
 ## 4. Langkah Percobaan
@@ -36,6 +36,8 @@ Sedangkan Unicity distance adalah panjang chipertext minimum yang diperlukan aga
 1. Membuat file `entropy_unicity.py` di folder `praktikum/week4-entropy_unicity/src/`.
 2. Menyalin kode program dari panduan praktikum.
 3. Menjalankan program dengan perintah `python entropy_unicity.py`.
+4. Mengaploud hasil eksekusi dengan nama file `hasil.png` di folder `praktikum/week4-entropy_unicity/sreenshot/`.
+5. Membuat laporan pada file `laporan.md` di folder  `praktikum/week4-entropy_unicity/laporan.md`
 
 ---
 
@@ -85,7 +87,7 @@ Pembahasan :
 4. Waktu brute force Caesar Cipher (26 kunci) = 3.0092592592592593e-10 hari (Pemecahan kunci dapat dilakukan dengan mencoba semua 26 kunci secara instan dalam waktu hitungan detik).
 
 5. Waktu brute force AES-128 = 3.938453320844195e+27 hari ( Jumlah waktu yang digunakan sangat lama sehingga tidak memungkinkan untuk memecahkan kode dengan brute force).
-```
+
 Hasil eksekusi program entropy_unicity :
 
 ![Hasil Eksekusi](screenshots/hasil.png)
@@ -94,22 +96,26 @@ Hasil eksekusi program entropy_unicity :
 ## 7. Jawaban Pertanyaan
 
 1. Apa arti dari nilai entropy dalam konteks kekuatan kunci?
-Nilai entropy dalam konteks kekuatan kunci adalah untuk mengukur tingkat ketidakpastian atau kekacauan dalam kunci/ data. Jadi semakin tinggi nilai entropy maka semakin acak dan sulit untuk memprediksi kode kunci.
 2. Mengapa unicity distance penting dalam menentukan keamanan suatu cipher?
-
 3. Mengapa brute force masih menjadi ancaman meskipun algoritma sudah kuat?
 
+### Jawaban
+1. Nilai entropy dalam konteks kekuatan kunci adalah untuk mengukur tingkat ketidakpastian atau kekacauan dalam kunci/ data. Jadi semakin tinggi nilai entropy maka semakin acak dan sulit untuk memprediksi kode kunci.
+
+2. Unity distance adalah panjang minimum dari ciphertext yang dibutuhkan untuk mengidentifikasikan plaintext. Sehingga semakin rendah nilai unity distance maka semakin mudah untuk dipecahkan dan sebaliknya jika semakin tinggi nilai unity distance maka dianggap lebih kuat dan sulit untuk dipecahkan.
+
+3. Terdapat beberapa alasan yaitu : 
+- Karena serangan brute force tidak menargetkan algoritma enkripsi data yang kuat, tetapi menargetkan mekanisme otentifikasi dan kelemahan ada pada sisi pengguna jika passsword yang digunakan lemah dan mudah ditebak sehingga rentan terhadap serangan.
+- Karena kemajuan komputasi dimana terdapat peningkatan kecepatan pemrosesan melalui GPU dan penggunaan cloud computing yang memungkinakan penyerang untuk mencoba banyak kombinasi password lemah dalam waktu yang singkat.
+- Kurang kontrol perlindungan seperti pembatasan percobaan login dan otentifikasi dua faktor (keamaan lapisan kedua).
+  
 ## 8. Kesimpulan
-(Tuliskan kesimpulan singkat (2–3 kalimat) berdasarkan percobaan.  )
+Penggunaan kriptografi klasik seperti caesar cipher sudah sangat usang, terbukti dari entropy kunci yang sangat rendah sehingga sangat rentan terhadap serangan brute force dan ananlisis frekuensi. Sedangkan penggunaan kriptografi modern seperti AES-128 dengan keamanan entropy 128 bit membuat pemecahan kunci secara komputasi menjadi mustahil, meskipun ancaman brute force tetap ada dengan menyerang penggunaan kombinasi password yang lemah.
 
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
-- Katz, J., & Lindell, Y. *Introduction to Modern Cryptography*.  
-- Stallings, W. *Cryptography and Network Security*.  )
-
+- Setiawansyah. (2024). Penerapan Metode Entropy dan Grey Relational Analysis dalam Evaluasi Kinerja Karyawan. Journal of Data Science and Information System (DIMIS), 2(1), 29–39. https://doi.org/10.58602/dimis.v2i1.100
 ---
 
 ## 10. Commit Log
